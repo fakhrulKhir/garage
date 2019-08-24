@@ -1,4 +1,3 @@
-alias 🍺="git checkout -b drunk"
 alias ga='git add'
 alias gaa='git add .'
 alias gaaa='git add -A'
@@ -10,5 +9,3 @@ alias gl='git log'
 alias gp='git pull'
 alias gpsh='git push'
 alias gss='git status -s'
-alias gs='echo ""; echo "*********************************************"; echo -e "   DO NOT FORGET TO PULL BEFORE COM$
-"*********************************************"; echo ""; git status'
