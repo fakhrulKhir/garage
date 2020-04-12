@@ -1,33 +1,23 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hugo-theme-hello-friend"
-assetDir = "static"
-paginate = 3
+paginate = 5
 
 [params]
   # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "blog"
-
+  contentTypeName = "post"
   # "light" or "dark"
   defaultTheme = "dark"
-
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
-
-  # Show reading time in minutes for posts
-  showReadingTime = true
-
-  # Metadata mostly used in document's head
-  description = "sam here bubbling"
-  keywords = "homepage, blog"
-  images = [""]
-
+  showMenuItems = 2
+  # Enable to show reading time in minutes for posts
+  showReadingTime = false
 
 [languages]
   [languages.en]
-    title = "Sam's Blog"
-    subtitle = ""
-    keywords = "runtosky, blog, ctf, about"
+    title = "Hello Friend"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
     copyright = ""
     menuMore = "Show more"
     writtenBy = "Written by"
@@ -35,14 +25,12 @@ paginate = 3
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
-    minuteReadingTime = "mins read"
+    minuteReadingTime = "min read"
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"
-    # leave empty to disable, enter display text to enable
-    lastModDisplay = "Modified: "
 
     [languages.en.params.logo]
-      logoText = "fakhrulKhir"
+      logoText = "hello friend"
       logoHomeLink = "/"
     # or
     #
@@ -55,13 +43,6 @@ paginate = 3
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
-        identifier = "blog"
-        name = "Blog"
-        url = "/blog"
-      [[languages.en.menu.main]]
-        identifier = "tags"
-        name = "Tags"
-        url = "/tags"
-      
-      
-      
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
