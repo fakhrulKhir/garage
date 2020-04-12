@@ -1,0 +1,67 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hugo-theme-hello-friend"
+assetDir = "static"
+paginate = 3
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "blog"
+
+  # "light" or "dark"
+  defaultTheme = "dark"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 3
+
+  # Show reading time in minutes for posts
+  showReadingTime = true
+
+  # Metadata mostly used in document's head
+  description = "sam here bubbling"
+  keywords = "homepage, blog"
+  images = [""]
+
+
+[languages]
+  [languages.en]
+    title = "runtosky.net"
+    subtitle = ""
+    keywords = "runtosky, blog, ctf, about"
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "mins read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+    # leave empty to disable, enter display text to enable
+    lastModDisplay = "Modified: "
+
+    [languages.en.params.logo]
+      logoText = "runtosky"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog"
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags"
+      
+      
+      
