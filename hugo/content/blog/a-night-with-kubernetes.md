@@ -2,9 +2,8 @@
 title: "A Night with Kubernetes"
 date: 2018-03-21T23:13:40+08:00
 tags: ["ctf"]
-draft: false
+draft: true
 hideReadMore : true
-coverAlt: Kubernetes logo
 ---
 
 <p class="figure-text">Kubernetes Logo.</p>
