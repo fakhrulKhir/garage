@@ -15,7 +15,7 @@ Hope you are doing fine. Here I jot down some of my stuffs that might be needed 
 
 Interested in software engineering and cyber security stuffs. Currently filling my time with sysadmin works and learning all the way I can (I am still an undergraduate student too).
 
-Credits to my officemate, Wildan. I looked and used Hugo from him.
+Credits to my officemate, Wildan (https://wzulfikar.com). I looked and used Hugo from him.
 
 Shout out to him!
 
