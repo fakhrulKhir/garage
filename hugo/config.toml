@@ -27,7 +27,7 @@ paginate = 3
   [languages.en]
     title = "Sam's Blog"
     subtitle = ""
-    keywords = "runtosky, blog, ctf, about"
+    keywords = "runtosky, blog, about"
     copyright = ""
     menuMore = "Show more"
     writtenBy = "Written by"
