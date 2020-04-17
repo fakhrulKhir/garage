@@ -24,3 +24,5 @@ Shout out to him!
 - vultr (get $100 in credits): https://www.vultr.com/?ref=8537432-6G
 - digital ocean (get $100 in credits): https://m.do.co/c/7b4152ea55b7
 - krisp: https://ref.krisp.ai/u/ua0b9ffd8e?utm_source=refprogram&utm_campaign=195916&locale=en-MY
+
+<script src="https://tryhackme.com/badge/26723"></script>
